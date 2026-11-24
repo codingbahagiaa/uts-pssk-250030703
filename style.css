@@ -44,10 +44,9 @@ body {
 }
 
 .nav-links a:hover {
-  color: #ffd166;
+  color: #f8df00;
 }
 
-/* 2. Hero Section & Keyframes Fade-In */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -60,7 +59,7 @@ body {
 }
 
 .hero {
-  background: linear-gradient(135deg, #b52b2b, #e07a5f);
+  background: linear-gradient(135deg, #b52b2b, #b72a03);
   color: #fff;
   text-align: center;
   padding: 5rem 1.5rem;
@@ -133,7 +132,6 @@ thead th {
   color: #fff;
 }
 
-/* 4 & 6. Galeri Tenant (CSS Grid Responsif Mobile-First) */
 .tenant-grid {
   display: grid;
   grid-template-columns: 1fr; /* Ponsel: 1 kolom */
@@ -159,7 +157,6 @@ thead th {
   margin-bottom: 0.5rem;
 }
 
-/* 5. Form Pendaftaran */
 .tenant-form {
   max-width: 600px;
   margin: 0 auto;

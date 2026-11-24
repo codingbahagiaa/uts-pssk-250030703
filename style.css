@@ -222,3 +222,17 @@ footer {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+tbody tr:hover {
+  background-color: #fff5f5;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #8b1e1e;
+}

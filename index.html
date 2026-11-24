@@ -106,9 +106,9 @@
       </div>
     </section>
 
-    <section id="daftar" class="container">
+<section id="daftar" class="container">
       <h2>Form Pendaftaran Tenant</h2>
-      <form class="tenant-form" action="#" method="post">
+      <form class="tenant-form" onsubmit="event.preventDefault(); alert('Pendaftaran diterima, Terima kasih.'); this.reset();">
         <div class="form-group">
           <label for="nama-usaha">Nama Usaha *</label>
           <input type="text" id="nama-usaha" name="nama_usaha" placeholder="Contoh: Warung Sate Lilit" required>
